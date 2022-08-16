@@ -12,9 +12,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     //Danger: Dot Not Verify on the client side
     //Step-4 Verify email & password and check valid user or not!!!!
     if(email === 'sontan@bap.com' && password === 'screct'){
-        console.log('Valid User');
+       window.location.href = 'bank.html';
     }
     else{
-        console.log('Invalid User');
+        alert('Email R Password tik kore deeeeee!');
     }
 });
